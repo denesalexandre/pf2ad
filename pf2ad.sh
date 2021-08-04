@@ -29,8 +29,8 @@ mkdir -p /usr/local/etc/pkg/repos
 
 cat <<EOF > /usr/local/etc/pkg/repos/pf2ad.conf
 pf2ad: {
-    url: "https://raw.githubusercontent.com/denesalexandre/packages",
-    mirror_type: "https",
+    url: "http://192.168.100.12/packages",
+    mirror_type: "http",
     enabled: yes
 }
 EOF
