@@ -29,7 +29,7 @@ mkdir -p /usr/local/etc/pkg/repos
 
 cat <<EOF > /usr/local/etc/pkg/repos/pf2ad.conf
 pf2ad: {
-    url: "http://192.168.100.12/packages",
+    url: "http://172.29.160.1/packages",
     mirror_type: "http",
     enabled: yes
 }
