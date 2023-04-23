@@ -30,7 +30,7 @@ mkdir -p /usr/local/etc/pkg/repos
 cat <<EOF > /usr/local/etc/pkg/repos/pf2ad.conf
 pf2ad: {
     url: "https://raw.githubusercontent.com/raw/11.1",
-    mirror_type: "http",
+    mirror_type: "https",
     enabled: yes
 }
 EOF
